@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3621652672282085963}
   - component: {fileID: 8611180982888892595}
+  - component: {fileID: 7611364145513936930}
   m_Layer: 0
   m_Name: Barril_Prefab
   m_TagString: Untagged
@@ -48,6 +49,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!64 &7611364145513936930
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3457975258380945127}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 1
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 0}
 --- !u!1001 &4773547643075069716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103,6 +118,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: a2878a34359258747a2d70a6d6975fb1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a35e032e557413e40b595b33a55dac77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2878a34359258747a2d70a6d6975fb1, type: 3}
 --- !u!4 &4773547643074944404 stripped
