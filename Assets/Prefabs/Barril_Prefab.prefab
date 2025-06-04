@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3621652672282085963}
   - component: {fileID: 8611180982888892595}
-  - component: {fileID: 7611364145513936930}
+  - component: {fileID: 114979098369058100}
   m_Layer: 0
   m_Name: Barril_Prefab
   m_TagString: Untagged
@@ -49,20 +49,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &7611364145513936930
-MeshCollider:
+--- !u!114 &114979098369058100
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3457975258380945127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43b713a830c16dd4090cb95ddde317a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precio: 5
+  moneyManager: {fileID: 0}
+--- !u!64 &4422265687228760389
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4773547643075101108}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: a2878a34359258747a2d70a6d6975fb1, type: 3}
 --- !u!1001 &4773547643075069716
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -124,6 +138,12 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: a35e032e557413e40b595b33a55dac77, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2878a34359258747a2d70a6d6975fb1, type: 3}
+--- !u!1 &4773547643075101108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: a2878a34359258747a2d70a6d6975fb1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4773547643075069716}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4773547643074944404 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: a2878a34359258747a2d70a6d6975fb1,
